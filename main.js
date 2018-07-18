@@ -33,7 +33,7 @@ var number = document.createElement("h3");
 number.textContent = det.phoneno;
 child.appendChild(number);
 var mail = document.createElement("a");
-mail.herf =" mailto:manikantaluckyjannu@gmail.com";
+mail.href =" mailto:manikantaluckyjannu@gmail.com";
 mail.textContent = det.email;
 child.appendChild(mail);
 
