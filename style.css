@@ -29,7 +29,7 @@ img{
   box-shadow: 5px 9px 5px #000;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 480px) {
   .parent{
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@ img{
     border-radius: 10%;
     text-align: center;
     font-size: 100%;
-    background-color: skyblue;
+    background-color: #848484;
   }
   .childtwo{
     border:3px solid green;
@@ -51,7 +51,85 @@ img{
     margin: 2%;
     width: 90%;
     border-radius: 10%;
-    background-color: pink;
+    background-color: #5882FA;
+  }
+  img{
+    width: 40%;
+    border: 5px solid pink;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 9px 5px #000;
+  }
+a{
+  word-wrap: break-word;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 760px) {
+  .parent{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid red;
+  }
+  .childone{
+    border: 3px solid blue;
+    padding: 3%;
+    margin: 2%;
+    font-style: italic;
+    width: 40%;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 100%;
+    background-color: #BFFF00;
+  }
+  .childtwo{
+    border:3px solid green;
+    padding: 3%;
+    margin: 2%;
+    fo
+    width: 60%;
+    border-radius: 10%;
+    background-color:#00FF00;
+  }
+  img{
+    width: 40%;
+    border: 5px solid pink;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 9px 5px #000;
+  }
+a{
+  word-wrap: break-word;
+}
+}
+@media only screen and (min-width: 761px) and (max-width: 1024px) {
+  .parent{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid red;
+  }
+  .childone{
+    border: 3px solid blue;
+    padding: 3%;
+    margin: 2%;
+    font-style: italic;
+    width: 40%;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 100%;
+    background-color:#FA8258;
+  }
+  .childtwo{
+    border:3px solid green;
+    padding: 3%;
+    margin: 2%;
+    fo
+    width: 60%;
+    border-radius: 10%;
+    background-color: #FA58F4;
   }
   img{
     width: 40%;
