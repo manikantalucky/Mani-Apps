@@ -1,30 +1,68 @@
 .parent{
-  display:flex;
+  display: flex;
   flex-direction: row;
-  border:3px solid red;
-
+  border: 3px solid red;
 }
 .childone{
-  text-align:center;
   border: 3px solid blue;
   padding: 3%;
-  margin: 3%;
-  width: 30%
+  margin: 2%;
+  width: 30%;
+  border-radius: 10%;
+  text-align: center;
+  font-size: 100%;
 }
 .childtwo{
-  
-  border: 3px solid green;
-    padding: 3%;
-    margin: 3%;
-    width: 70%;
-    border-radius: 10%;
+  border:3px solid green;
+  padding: 3%;
+  margin: 2%;
+  width: 70%;
+  border-radius: 10%;
 }
 img{
   width: 40%;
   border: 5px solid pink;
-  border-radius: 100%;
+  border-radius: 50%;
   display: block;
-margin-left:auto;
-margin-right:  auto;
-box-shadow: 5px,9px,5px,#000;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 9px 5px #000;
+}
+
+@media only screen and (max-width: 1080px) {
+  .parent{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+  }
+  .childone{
+    border: 3px solid blue;
+    padding: 3%;
+    margin: 2%;
+    width: 90%;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 100%;
+    background-color: skyblue;
+  }
+  .childtwo{
+    border:3px solid green;
+    padding: 3%;
+    margin: 2%;
+    width: 90%;
+    border-radius: 10%;
+    background-color: pink;
+  }
+  img{
+    width: 40%;
+    border: 5px solid pink;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 9px 5px #000;
+  }
+a{
+  word-wrap: break-word;
+}
 }
